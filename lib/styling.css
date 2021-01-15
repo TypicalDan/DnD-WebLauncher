@@ -1,0 +1,123 @@
+/*TEXT FORMAT*/
+p {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+p.title   {
+  font-size: 32px;
+  padding: 20px 40px;
+}
+
+p.subtitle {
+  font-size: 24px;
+  font-weight:bold;
+}
+
+p.text {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+/*TABLE FORMAT*/
+table#table1 {
+   width: 100%;
+   text-align: center;
+}
+/*LINK FORMAT*/
+a:link, a:visited {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: rgba(200, 200, 200, 0.75);
+}
+
+ a.nullLarge:link, a.nullLarge:visited,
+ a.danLarge:link, a.danLarge:visited,
+ a.ethLarge:link, a.ethLarge:visited,
+ a.col-ff5500:link, a.col-ff5500:visited,
+ a.col-00ff5e:link, a.col-00ff5e:visited,
+ a.col-c8c8c8:link, a.col-c8c8c8:visited,
+ a.col-0000ff:link, a.col-0000ff:visited,
+ a.col-4073ff:link, a.col-4073ff:visited,
+ a.col-ff004c:link, a.col-ff004c:visited,
+ a.col-9c0a00:link, a.col-9c0a00:visited,
+ a.col-ff5252:link, a.col-ff5252:visited,
+ a.col-ffc400:link, a.col-ffc400:visited,
+ a.col-ff00ff:link, a.col-ff00ff:visited,
+ a.col-ff0000:link, a.col-ff0000:visited,
+ a.col-0055ff:link, a.col-0055ff:visited,
+ a.col-8000ff:link, a.col-8000ff:visited,
+ a.col-ff9900:link, a.col-ff9900:visited,
+ a.col-779c44:link, a.col-779c44:visited,
+ a.col-916737:link, a.col-916737:visited {
+  font-size: 16px;
+  padding: 50px 100px;
+}
+/*HOME PAGE LINKS*/
+a.nullLarge:hover, a.nullLarge:active {background-color: rgba(200, 0, 0, 0.75);}
+a.danLarge:hover, a.danLarge:active {background-color: rgba(0, 100, 200, 0.75);}
+a.ethLarge:hover, a.ethLarge:active {background-color: rgba(7, 197, 7, 0.75);}
+/*INDIVIDUAL PAGE LINKS*/
+a.col-ff0000:hover, a.col-ff0000:active {background-color: rgba(255, 0, 0, 0.75);}
+a.col-9c0a00:hover, a.col-9c0a00:active {background-color: rgba(156, 10, 0, 0.75);}
+a.col-ff5252:hover, a.col-ff5252:active {background-color: rgba(255, 82, 82, 0.75);}
+a.col-ff004c:hover, a.col-ff004c:active {background-color: rgba(255, 0, 76, 0.75);}
+a.col-ff5500:hover, a.col-ff5500:active {background-color: rgba(255, 85, 0 ,0.75);}
+a.col-916737:hover, a.col-916737:active {background-color: rgba(145, 103, 55, 0.75);}
+a.col-ff9900:hover, a.col-ff9900:active {background-color: rgba(255, 153, 0, 0.75);}
+a.col-ffc400:hover, a.col-ffc400:active {background-color: rgba(255, 196, 0, 0.75);}
+a.col-779c44:hover, a.col-779c44:active {background-color: rgba(119, 156, 68, 0.75);}
+a.col-00ff5e:hover, a.col-00ff5e:active {background-color: rgba(0, 255, 94 ,0.75);}
+a.col-4073ff:hover, a.col-4073ff:active {background-color: rgba(64, 115, 255, 0.75);}
+a.col-0055ff:hover, a.com-0055ff:active {background-color: rgba(0, 85, 255, 0.75);}
+a.col-0000ff:hover, a.col-0000ff:active {background-color: rgba(0, 0, 255 ,0.75);}
+a.col-8000ff:hover, a.col-8000ff:active {background-color: rgba(128, 0, 255, 0.75);}
+a.col-ff00ff:hover, a.col-ff00ff:active {background-color: rgba(255, 0, 255, 0.75);}
+/*NAV BAR FORMAT*/
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li.navbar {
+  float: left;
+}
+a.navbarHome:link, a.navbarHome:visited,
+a.navbarNull:link, a.navbarNull:visited,
+a.navbarDan:link, a.navbarDan:visited,
+a.navbarEth:link, a.navbarEth:visited {
+  font-size: 24px;
+}
+a.navbarDan:hover, a.navbarDan:active {
+  background-color: rgba(0, 100, 200, 0.75);
+}
+a.navbarEth:hover, a.navbarEth:active {
+  background-color: rgba(7, 197, 7, 0.75);
+}
+a.navbarNull:hover, a.navbarNull:active {
+  background-color: rgba(200, 0, 0, 0.75);
+}
